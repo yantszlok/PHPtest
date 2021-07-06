@@ -1,5 +1,6 @@
 <?php
-fscanf(STDIN, "%d %d %s", $a, $b, $s);
+fscanf(STDIN, "%d %d", $a, $b);
+fscanf(STDIN, "%s",$s);
 
  $ab=$a+$b;
 
