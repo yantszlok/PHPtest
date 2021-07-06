@@ -5,11 +5,10 @@ $foods= array(
   "vegetable" => array("kyuri","kabocha","jagaimo")
 );
 
-var_dump($foods);
-
-
 foreach($foods as $categories => $food){
- echo $categories.":".$food;
+ foreach($food as $name => $food2){
+  echo $categories.":".$food2;
+ }
 }
 
 ?>
