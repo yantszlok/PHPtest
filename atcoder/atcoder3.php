@@ -6,7 +6,6 @@ $p = explode(" ",$s);
 
 sort($p, SORT_NUMERIC);
 
-var_dump($p);
 $sum = 0;
 
 for( $i=0; $i<$k; $i++){
@@ -14,6 +13,5 @@ for( $i=0; $i<$k; $i++){
 }
 
 echo $sum;
-
 
 ?>
