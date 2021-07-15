@@ -1,6 +1,6 @@
 <?php
-fscanf(STDIN, "%d", $N);
-fscanf(STDIN, "%s", $A);
+$N = fgets(STDIN);
+$A = fgets(STDIN);
 
 $Array = explode(" ",$A);
 
